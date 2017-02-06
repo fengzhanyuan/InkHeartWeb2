@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkHeart.UI", "InkHeart.UI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkHeartUnitTest", "InkHeartUnitTest\InkHeartUnitTest.csproj", "{A4A53CF4-FEC0-4CAC-876C-66CEAE4201C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkHeartAdmin", "InkHeartAdmin\InkHeartAdmin.csproj", "{F42D7E5E-475F-44A2-ADE6-7C4EBF4AD954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A4A53CF4-FEC0-4CAC-876C-66CEAE4201C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4A53CF4-FEC0-4CAC-876C-66CEAE4201C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4A53CF4-FEC0-4CAC-876C-66CEAE4201C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42D7E5E-475F-44A2-ADE6-7C4EBF4AD954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42D7E5E-475F-44A2-ADE6-7C4EBF4AD954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42D7E5E-475F-44A2-ADE6-7C4EBF4AD954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42D7E5E-475F-44A2-ADE6-7C4EBF4AD954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

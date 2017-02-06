@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Forget";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+        <!--忘记密码-->
+<form class="auth-form recover-modal" id="div_forget">
+    <h2>忘记密码</h2>
+    <div class="auth-switch">
+        已有账号？
+        <a href="~/User">立即登录</a>
+    </div>
+    <div class="form-box no-icon">
+        <div class="form-group">
+            <div class="form-control"
+                 :class="{'has-value': mobilePhone}"
+                 data-placeholder="请输入手机号">
+                <input type="text" v-model="mobilePhone"
+                       :class="{'input-error': !mobilePhone && target == 'mobilePhone'}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-control"
+                 :class="{'has-value': password}"
+                 data-placeholder="请输入新密码">
+                <input type="password" v-model="password"
+                       :class="{'input-error': !password && target == 'password'}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-control"
+                 :class="{'has-value': confirmPassword}"
+                 data-placeholder="请确认密码">
+                <input type="password" v-model="confirmPassword"
+                       :class="{'input-error': !confirmPassword && target == 'confirmPassword'}" />
+            </div>
+        </div>
+        <div class="form-group note">
+            <div class="form-control"
+                 :class="{'has-value': clientCode}"
+                 data-placeholder="请输入短信验证码">
+                <input type="text" v-model="clientCode"
+                       :class="{'input-error': !clientCode && target == 'clientCode'}" />
+            </div>
+        </div>
+        <div class="submit-box">
+            <input type="submit" value="确认修改" class="submit" />
+        </div>
+    </div>
+    </form>

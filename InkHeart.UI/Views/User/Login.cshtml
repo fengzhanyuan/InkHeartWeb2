@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+        <!--登陆-->
+<form class="auth-form login-modal" id="div_login">
+    <h2>登录</h2>
+    <div class="auth-switch">
+        <a href="~/User/Forget">忘记密码？</a>
+        <a href="~/User/Register">立即注册</a>
+    </div>
+    <div class="form-box">
+        <div class="form-group account">
+            <div class="form-control" data-placeholder="请输入手机号码">
+                <input type="text">
+            </div>
+        </div>
+        <div class="form-group password">
+            <div class="form-control" data-placeholder="请输入密码">
+                <input type="password">
+            </div>
+        </div>
+        <div class="form-group verify-box">
+            <div class="form-control" data-placeholder="请输入验证码">
+                <input type="text">
+            </div>
+            <img class="verify" src="/core/code?1480348233492">
+            <span class="verify-btn">换一换</span>
+        </div>
+        <div class="submit-box">
+            <input type="submit" value="登录" class="submit">
+        </div>
+    </div>
+
+</form>
